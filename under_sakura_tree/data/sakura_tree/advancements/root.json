@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "桜の樹の下には死体が埋まっている！",
+        "description": "by 梶井基次郎",
+        "icon": {
+            "item": "minecraft:pink_glazed_terracotta"
+        },
+        "background": "minecraft:textures/block/pink_glazed_terracotta.png"
+    },
+    "criteria": {
+        "rally": {
+            "trigger":"impossible"
+        }
+    }
+}

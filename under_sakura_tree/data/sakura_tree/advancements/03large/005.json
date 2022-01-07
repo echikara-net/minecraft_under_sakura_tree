@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "不安、憂鬱、空虚",
+        "description": "大きい桜の木を5本植える",
+        "icon": {
+            "item": "minecraft:brain_coral_fan"
+        },
+        "frame": "task",
+        "hidden":false
+    },
+    "parent":"sakura_tree:03large/001",
+    "criteria": {
+        "sakura_tree": {
+            "trigger": "impossible"
+        }
+    }
+        }
+}

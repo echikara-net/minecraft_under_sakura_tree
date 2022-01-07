@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "なにかの幻覚",
+        "description": "中くらいの桜の木を20本植える",
+        "icon": {
+            "item": "minecraft:brain_coral_fan"
+        },
+        "frame": "task",
+        "hidden":false
+    },
+    "parent":"sakura_tree:02medium/005",
+    "criteria": {
+        "sakura_tree": {
+            "trigger": "impossible"
+        }
+    }
+        }
+}

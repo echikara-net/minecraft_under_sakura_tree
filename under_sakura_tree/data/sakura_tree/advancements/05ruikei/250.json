@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "石油を流したような光彩",
+        "description": "桜の木を累計で250本植える",
+        "icon": {
+            "item": "minecraft:brain_coral_fan"
+        },
+        "frame": "task",
+        "hidden":true
+    },
+    "parent":"sakura_tree:05ruikei/100",
+    "criteria": {
+        "sakura_tree": {
+            "trigger": "impossible"
+        }
+    }
+        }
+}

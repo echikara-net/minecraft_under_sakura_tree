@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "彼らの墓場",
+        "description": "桜の木を累計で750本植える",
+        "icon": {
+            "item": "minecraft:brain_coral_fan"
+        },
+        "frame": "task",
+        "hidden":true
+    },
+    "parent":"sakura_tree:05ruikei/500",
+    "criteria": {
+        "sakura_tree": {
+            "trigger": "impossible"
+        }
+    }
+        }
+}

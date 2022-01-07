@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "ああ、桜の樹の下には死体が埋まっている！",
+        "description": "「桜の樹の下には」すべての進捗コンプリート",
+        "icon": {
+            "item": "minecraft:brain_coral_fan"
+        },
+        "frame": "task",
+        "hidden":true
+    },
+    "parent":"sakura_tree:root",
+    "criteria": {
+        "sakura_tree": {
+            "trigger": "impossible"
+        }
+    }
+        }
+}
