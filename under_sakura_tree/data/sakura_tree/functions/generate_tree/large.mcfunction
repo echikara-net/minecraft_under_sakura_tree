@@ -2,13 +2,13 @@
 loot spawn ~ ~ ~ loot sakura_tree:large_tree
 
 #媒介アイテムに沿った木の生成
-execute at @e[type=item,tag=sakura_large_01] run setblock ~ ~ ~ structure_block{mode:"LOAD",name:"sakura_tree:large_1",posX:-5,posY:0,posZ:-6}
-execute at @e[type=item,tag=sakura_large_02] run setblock ~ ~ ~ structure_block{mode:"LOAD",name:"sakura_tree:large_2",posX:-6,posY:0,posZ:-6}
-execute at @e[type=item,tag=sakura_large_03] run setblock ~ ~ ~ structure_block{mode:"LOAD",name:"sakura_tree:large_3",posX:-9,posY:0,posZ:-8}
-execute at @e[type=item,tag=sakura_large_04] run setblock ~ ~ ~ structure_block{mode:"LOAD",name:"sakura_tree:large_4",posX:-7,posY:0,posZ:-8}
+execute as @e[type=item,tag=sakura_large_01] at @s run setblock ~ ~ ~ structure_block{mode:"LOAD",name:"sakura_tree:large_1",posX:-5,posY:0,posZ:-6}
+execute as @e[type=item,tag=sakura_large_02] at @s run setblock ~ ~ ~ structure_block{mode:"LOAD",name:"sakura_tree:large_2",posX:-6,posY:0,posZ:-6}
+execute as @e[type=item,tag=sakura_large_03] at @s run setblock ~ ~ ~ structure_block{mode:"LOAD",name:"sakura_tree:large_3",posX:-9,posY:0,posZ:-8}
+execute as @e[type=item,tag=sakura_large_04] at @s run setblock ~ ~ ~ structure_block{mode:"LOAD",name:"sakura_tree:large_4",posX:-7,posY:0,posZ:-8}
 
 #媒介アイテム撤去
-kill @e[type=item,tag=sakura_generate,distance=..1]
+execute as @e[type=item,tag=sakura_generate] run kill @s
 
 #共通生成部分
 function sakura_tree:generate_tree/go

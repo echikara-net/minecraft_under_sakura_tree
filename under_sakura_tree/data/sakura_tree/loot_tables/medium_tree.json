@@ -7,70 +7,79 @@
                 {
                     "type":"item",
                     "name":"minecraft:structure_void",
-                    "wight":1,
+                    "weight":1,
                     "functions":[
-                        {
-                            "tag": "sakura_medium_01,sakura_generate",
+                        {"function": "set_nbt",
+                            "tag": "{Tags:[sakura_medium_01,sakura_generate]}"},
+                            {
                             "function": "minecraft:set_count","count":1
+                        }
+                    ]
                     },
                     {
                         "type":"item",
                         "name":"minecraft:structure_void",
-                        "wight":1,
+                        "weight":1,
                         "functions":[
-                            {
-                                "tag": "sakura_medium_02,sakura_generate",
+                            {"function": "set_nbt",
+                                "tag": "{Tags:[sakura_medium_02,sakura_generate]}"},
+                                {
                                 "function": "minecraft:set_count","count":1
-                        },
+                             }
+                        ]
+                    },
                         {
                             "type":"item",
                             "name":"minecraft:structure_void",
-                            "wight":1,
+                            "weight":1,
                             "functions":[
-                                {
-                                    "tag": "sakura_medium_03,sakura_generate",
+                                {"function": "set_nbt",
+                                    "tag": "{Tags:[sakura_medium_03,sakura_generate]}"},{
                                     "function": "minecraft:set_count","count":1
-                            },
+                            }]
+                        },
                             {
                                 "type":"item",
                                 "name":"minecraft:structure_void",
-                                "wight":1,
+                                "weight":1,
                                 "functions":[
-                                    {
-                                        "tag": "sakura_medium_04,sakura_generate",
+                                    {"function": "set_nbt",
+                                        "tag": "{Tags:[sakura_medium_04,sakura_generate]}"},{
                                         "function": "minecraft:set_count","count":1
-                                },
-                                {
-                                    "type":"item",
+                                }]
+                            },
+                             {
+                                 "type":"item",
                                     "name":"minecraft:structure_void",
-                                    "wight":1,
+                                    "weight":1,
                                     "functions":[
-                                        {
-                                            "tag": "sakura_medium_05,sakura_generate",
+                                        {"function": "set_nbt",
+                                            "tag": "{Tags:[sakura_medium_05,sakura_generate]}"},{
                                             "function": "minecraft:set_count","count":1
-                                    },
+                                    }]
+                             },
                                     {
                                         "type":"item",
                                         "name":"minecraft:structure_void",
-                                        "wight":1,
+                                        "weight":1,
                                         "functions":[
-                                            {
-                                                "tag": "sakura_medium_06,sakura_generate",
+                                            {"function": "set_nbt",
+                                                "tag": "{Tags:[sakura_medium_06,sakura_generate]}"},{
                                                 "function": "minecraft:set_count","count":1
-                                        },
+                                        }]},
                                         {
                                             "type":"item",
                                             "name":"minecraft:structure_void",
-                                            "wight":1,
+                                            "weight":1,
                                             "functions":[
-                                                {
-                                                    "tag": "sakura_medium_07,sakura_generate",
+                                                {"function": "set_nbt",
+                                                    "tag": "{Tags:[sakura_medium_07,sakura_generate]}"},{
                                                     "function": "minecraft:set_count","count":1
-                                            }
-                    ]
-                }
-            ]
-
-        }
-    ]
+                                                }
+                                            ]
+                                        
+                                        }
+                                    ]
+                                }
+]
 }

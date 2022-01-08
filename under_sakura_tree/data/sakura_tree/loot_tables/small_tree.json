@@ -7,97 +7,102 @@
                 {
                     "type":"item",
                     "name":"minecraft:structure_void",
-                    "wight":1,
+                    "weight":1,
                     "functions":[
-                        {
-                            "tag": "sakura_small_01,sakura_generate",
+                        {"function":"set_nbt",
+                            "tag": "{Tags:[sakura_small_01,sakura_generate]}"},{
                             "function": "minecraft:set_count","count":1
+                        }]
                     },
                     {
                         "type":"item",
                         "name":"minecraft:structure_void",
-                        "wight":1,
+                        "weight":1,
                         "functions":[
-                            {
-                                "tag": "sakura_small_02,sakura_generate",
+                            {"function":"set_nbt",
+                                "tag": "{Tags:[sakura_small_02,sakura_generate]}"},{
                                 "function": "minecraft:set_count","count":1
-                        },
+                            }
+                        ]
+                    },
                         {
                             "type":"item",
                             "name":"minecraft:structure_void",
-                            "wight":1,
+                            "weight":1,
                             "functions":[
-                                {
-                                    "tag": "sakura_small_03,sakura_generate",
+                                {"function":"set_nbt",
+                                    "tag": "{Tags:[sakura_small_03,sakura_generate]}"},{
                                     "function": "minecraft:set_count","count":1
-                            },
-                            {
+                            }
+                        ]
+                        },
+                     {
                                 "type":"item",
                                 "name":"minecraft:structure_void",
-                                "wight":1,
+                                "weight":1,
                                 "functions":[
-                                    {
-                                        "tag": "sakura_small_04,sakura_generate",
+                                    {"function":"set_nbt",
+                                        "tag": "{Tags:[sakura_small_04,sakura_generate]}"},
+                                        {
                                         "function": "minecraft:set_count","count":1
-                                },
+                     }]
+                    },
                                 {
                                     "type":"item",
                                     "name":"minecraft:structure_void",
-                                    "wight":1,
+                                    "weight":1,
                                     "functions":[
-                                        {
-                                            "tag": "sakura_small_05,sakura_generate",
+                                        {"function": "set_nbt",
+                                            "tag": "{Tags:[sakura_small_05,sakura_generate]}"},{
                                             "function": "minecraft:set_count","count":1
-                                    },
+                                    }]},
                                     {
                                         "type":"item",
                                         "name":"minecraft:structure_void",
-                                        "wight":1,
+                                        "weight":1,
                                         "functions":[
-                                            {
-                                                "tag": "sakura_small_06,sakura_generate",
+                                            {"function": "set_nbt",
+                                                "tag": "{Tags:[sakura_small_06,sakura_generate]}"},{
                                                 "function": "minecraft:set_count","count":1
-                                        },
+                                        }]},
                                         {
                                             "type":"item",
                                             "name":"minecraft:structure_void",
-                                            "wight":1,
+                                            "weight":1,
                                             "functions":[
-                                                {
-                                                    "tag": "sakura_small_07,sakura_generate",
+                                                {"function": "set_nbt",
+                                                    "tag": "{Tags:[sakura_small_07,sakura_generate]}"},{
                                                     "function": "minecraft:set_count","count":1
-                                            },
+                                            }]},
                                             {
                                                 "type":"item",
                                                 "name":"minecraft:structure_void",
-                                                "wight":1,
+                                                "weight":1,
                                                 "functions":[
-                                                    {
-                                                        "tag": "sakura_small_08,sakura_generate",
+                                                    {"function": "set_nbt",
+                                                        "tag": "{Tags:[sakura_small_08,sakura_generate]}"},{
                                                         "function": "minecraft:set_count","count":1
-                                                },
+                                                }]},
                                                 {
                                                     "type":"item",
                                                     "name":"minecraft:structure_void",
-                                                    "wight":1,
+                                                    "weight":1,
                                                     "functions":[
-                                                        {
-                                                            "tag": "sakura_small_09,sakura_generate",
+                                                        {"function":"set_nbt",
+                                                            "tag": "{Tags:[sakura_small_09,sakura_generate]}"},
+                                                            {
                                                             "function": "minecraft:set_count","count":1
-                                                    },
+                                                    }]},
                                                     {
                                                         "type":"item",
                                                         "name":"minecraft:structure_void",
-                                                        "wight":1,
+                                                        "weight":1,
                                                         "functions":[
-                                                            {
-                                                                "tag": "sakura_small_10,sakura_generate",
+{"function":"set_nbt",
+    "tag": "{Tags:[sakura_small_10,sakura_generate]}"},{
                                                                 "function": "minecraft:set_count","count":1
-                                                        }
-                    ]
-                }
-            ]
-
-        }
+                                                        }]}
+                                                            ]
+                                                    }
     ]
 }

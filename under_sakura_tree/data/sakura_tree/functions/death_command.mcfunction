@@ -14,8 +14,7 @@ execute if score @s sakura_itemcount matches 2304.. run function sakura_tree:gen
 scoreboard players reset @s sakura_death
 
 #累計本数カウント
-scoreboard players add @s sakura_ruikei
-
+scoreboard players add @s sakura_ruikei 1
 #累計本数に応じて進捗を付与するためのコマンド実行
 function sakura_tree:advancements/ruikei
 
