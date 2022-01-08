@@ -3,9 +3,9 @@
         "title": "幻覚させる後光",
         "description": "中くらいの桜の木を50本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:dark_oak_sapling"
         },
-        "frame": "task",
+        "frame": "challenge",
         "hidden":false
     },
     "parent":"sakura_tree:02medium/020",

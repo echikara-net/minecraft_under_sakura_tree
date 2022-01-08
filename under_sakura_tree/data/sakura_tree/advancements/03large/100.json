@@ -3,9 +3,9 @@
         "title": "爛漫と咲き乱れている桜の樹の下",
         "description": "大きい桜の木を100本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:brain_coral"
         },
-        "frame": "task",
+        "frame": "goal",
         "hidden":false
     },
     "parent":"sakura_tree:03large/050",

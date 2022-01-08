@@ -3,9 +3,9 @@
         "title": "何があんな花弁を作っているのか",
         "description": "最大の桜の木を１本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:pink_glazed_terracotta"
         },
-        "frame": "task",
+        "frame": "challenge",
         "hidden":true
     },
     "parent":"sakura_tree:root",

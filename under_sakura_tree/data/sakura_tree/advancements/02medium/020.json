@@ -3,7 +3,7 @@
         "title": "なにかの幻覚",
         "description": "中くらいの桜の木を20本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:dark_oak_sapling"
         },
         "frame": "task",
         "hidden":false

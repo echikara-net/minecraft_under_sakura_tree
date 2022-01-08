@@ -3,7 +3,7 @@
         "title": "やっとわかった",
         "description": "大きい桜の木を50本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:brain_coral"
         },
         "frame": "task",
         "hidden":false

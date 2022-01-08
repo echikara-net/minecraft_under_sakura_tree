@@ -3,9 +3,9 @@
         "title": "不安がらせた神秘",
         "description": "最大の桜の木を100本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:pink_glazed_terracotta"
         },
-        "frame": "task",
+        "frame": "goal",
         "hidden":false
     },
     "parent":"sakura_tree:04max/050",

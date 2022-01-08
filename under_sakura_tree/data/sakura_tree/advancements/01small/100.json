@@ -5,7 +5,7 @@
         "icon": {
             "item": "minecraft:brain_coral_fan"
         },
-        "frame": "task",
+        "frame": "goal",
         "hidden":false
     },
     "parent":"sakura_tree:01small/050",

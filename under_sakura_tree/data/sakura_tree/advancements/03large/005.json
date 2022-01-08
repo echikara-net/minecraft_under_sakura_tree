@@ -3,7 +3,7 @@
         "title": "不安、憂鬱、空虚",
         "description": "大きい桜の木を5本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:brain_coral"
         },
         "frame": "task",
         "hidden":false

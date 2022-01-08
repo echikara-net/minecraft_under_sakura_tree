@@ -3,9 +3,9 @@
         "title": "薄羽かげろう",
         "description": "桜の木を累計で999本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:soul_campfire"
         },
-        "frame": "task",
+        "frame": "goal",
         "hidden":true
     },
     "parent":"sakura_tree:05ruikei/750",

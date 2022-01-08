@@ -3,7 +3,7 @@
         "title": "彼らの墓場",
         "description": "桜の木を累計で750本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:soul_campfire"
         },
         "frame": "task",
         "hidden":true

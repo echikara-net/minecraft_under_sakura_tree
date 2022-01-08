@@ -3,7 +3,7 @@
         "title": "静かな行列",
         "description": "最大の桜の木を20本植える",
         "icon": {
-            "item": "minecraft:brain_coral_fan"
+            "item": "minecraft:pink_glazed_terracotta"
         },
         "frame": "task",
         "hidden":false
