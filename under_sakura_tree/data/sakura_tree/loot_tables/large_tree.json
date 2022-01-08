@@ -10,7 +10,7 @@
                     "weight":1,
                     "functions":[
                         {"function":"set_nbt",
-                            "tag": "{Tags:[sakura_large_01,sakura_generate]}"},
+                            "tag":"{sakura_tree:large_01,sakura_generate:sasara}"},
                             {
                             "function": "minecraft:set_count","count":1
                     }]
@@ -21,7 +21,7 @@
                         "weight":1,
                         "functions":[
                             {"function":"set_nbt",
-                                "tag": "{Tags:[sakura_large_02,sakura_generate]}"},{
+                                "tag": "{sakura_tree:large_02,sakura_generate:sasara}"},{
                                 "function": "minecraft:set_count","count":1
                         }]
                     },
@@ -31,7 +31,7 @@
                             "weight":1,
                             "functions":[
                                 {"function":"set_nbt",
-                                    "tag": "{Tags:[sakura_large_03,sakura_generate]}"},{
+                                    "tag": "{sakura_tree:large_03,sakura_generate:sasara}"},{
                                     "function": "minecraft:set_count","count":1
                             
                             }]
@@ -42,7 +42,7 @@
                                 "weight":1,
                                 "functions":[
                                     {"function":"set_nbt",
-                                        "tag": "{Tags:[sakura_large_04,sakura_generate]}"},{
+                                        "tag": "{sakura_tree:large_04,sakura_generate:sasara}"},{
                                         "function": "minecraft:set_count","count":1
                                 }
                             ]
