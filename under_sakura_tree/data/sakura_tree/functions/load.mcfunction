@@ -13,4 +13,3 @@ scoreboard objectives add sakura_ruikei dummy
 
 #keepinventryを有効に
 gamerule keepInventory true
-
